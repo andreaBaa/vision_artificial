@@ -29,7 +29,7 @@ st.image(image2)
 # take a picture with the camera
 st.title("Detección de Objetos en Imágenes")
 
-st.header("Toma una foto y deja que el sistema te diga qué hay en la imagen. Por ejemplo:")
+st.header("Toma una foto y deja que el sistema te diga qué hay en la imagen.")
 
 
 with st.sidebar:
