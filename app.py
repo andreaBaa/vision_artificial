@@ -24,7 +24,7 @@ model.multi_label = False  # NMS multiple labels per box
 model.max_det = 1000  # maximum number of detections per image
 
 image2= Image.open("deteccion.jpg")
-st.image2(image)
+st.image(image2)
 
 # take a picture with the camera
 st.title("Detección de Objetos en Imágenes")
