@@ -4,7 +4,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 from ultralytics import YOLO
-from PIL import Image
+#from PIL import Image
 
 #import sys
 #sys.path.append('./ultralytics/yolo')
@@ -27,8 +27,8 @@ model.max_det = 1000  # maximum number of detections per image
 st.title("Detección de Objetos en Imágenes")
 
 st.header("Toma una foto y deja que el sistema te diga qué hay en la imagen. Por ejemplo:")
-image= Image.open("deteccion.jpg")
-st.image(image)
+#image= Image.open("deteccion.jpg")
+#st.image(image)
 
 
 with st.sidebar:
