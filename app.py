@@ -27,8 +27,8 @@ model.max_det = 1000  # maximum number of detections per image
 st.title("Detección de Objetos en Imágenes")
 
 st.header("Toma una foto y deja que el sistema te diga qué hay en la imagen. Por ejemplo:")
-imageejem = Image.open("deteccion.jpg")
-st.image(imageejem, width=400)
+image= Image.open("deteccion.jpg")
+st.image(image)
 
 
 with st.sidebar:
